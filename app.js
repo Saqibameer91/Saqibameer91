@@ -10,6 +10,10 @@ app.get('/about', (req, res) => {
     res.send('Hello World!')
   })
 
+  app.get('/contect', (req, res) => {
+    res.send('Hello World!')
+  })
+
 
 
 app.listen(port, () => {
